@@ -220,4 +220,7 @@ def cleanup_old_files():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=9000)
+    import os
+    port = int(os.getenv('PORT', 9000))
+    debug = os.getenv('FLASK_DEBUG', 'False').lower() == 'true'
+    app.run(debug=debug, host='0.0.0.0', port=port)
