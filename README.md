@@ -49,6 +49,8 @@ python split_image.py screenshot.png 5
 
 ## 📖 文档
 
+- [快速部署指南](快速部署指南.md) - 一键部署到Render
+- [部署指南](部署指南.md) - 多平台部署方案
 - [Web应用使用指南](Web应用使用指南.md)
 - [命令行使用说明](使用说明.md)
 - [Skill安装指南](安装指南.md)
@@ -56,7 +58,16 @@ python split_image.py screenshot.png 5
 
 ## 🌐 在线演示
 
+### 本地运行
 访问 Web 应用：http://localhost:9000
+
+### 云端部署
+
+**一键部署到 Render（推荐）**：
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Drrreistein/split-image)
+
+详细步骤请查看 [快速部署指南](快速部署指南.md)
 
 ### Web应用功能
 
