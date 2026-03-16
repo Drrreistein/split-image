@@ -58,16 +58,34 @@ python split_image.py screenshot.png 5
 
 ## 🌐 在线演示
 
+### GitHub Pages（推荐 - 纯前端）
+
+**🚀 在线访问**: https://drrreistein.github.io/split-image/
+
+✨ **特点**: 
+- 100% 浏览器处理，无需服务器
+- 图片不会上传到任何服务器，保护隐私
+- 完全免费，支持HTTPS
+
 ### 本地运行
+
 访问 Web 应用：http://localhost:9000
 
-### 云端部署
+### 云端部署（Flask版）
 
-**一键部署到 Render（推荐）**：
+**一键部署到 Render**：
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Drrreistein/split-image)
 
 详细步骤请查看 [快速部署指南](快速部署指南.md)
+
+### 版本对比
+
+| 版本 | 访问地址 | 特点 |
+|------|---------|------|
+| GitHub Pages | https://drrreistein.github.io/split-image/ | 纯前端、免费、隐私保护 |
+| Flask本地 | http://localhost:9000 | 完整功能、本地运行 |
+| Render云端 | 自定义域名 | 持久存储、支持大文件 |
 
 ### Web应用功能
 
